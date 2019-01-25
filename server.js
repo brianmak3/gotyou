@@ -26,7 +26,7 @@ const
   Users = require('./models/users');
   Messages = require('./models/messages');
 // mongoose.connect('mongodb://nearby:nearby@127.0.0.1/nearBy');
- mongoose.connect('mongodb://127.0.0.1/gotYou',{ useNewUrlParser: true });
+ mongoose.connect('mongodb://gotYou:gotYou@127.0.0.1/gotYou',{ useNewUrlParser: true });
 
 // basic setup
 app.use(cors());
