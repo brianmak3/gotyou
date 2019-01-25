@@ -1,0 +1,28 @@
+{
+	"name": "gotYouServer",
+	"version": "1.0.2",
+	"description": "gotYou server",
+	"main": "server.js",
+	"scripts": {
+		"start": "nodemon server.js",
+		"dev": "nodemon --exec 'node -r dotenv/config' server.js"
+	},
+	"dependencies": {
+		"aws-sdk": "^2.9.0",
+		"cors": "^2.8.1",
+		"express": "^4.14.0",
+		"fs": "0.0.1-security",
+		"helmet": "^3.4.0",
+		"jwt-simple": "^0.5.1",
+		"mongodb": "^2.2.21",
+		"mongoose": "^5.2.14",
+		"multer": "^1.3.1",
+		"nodemon": "^1.18.4",
+		"path": "^0.12.7",
+		"socket.io": "^1.7.2",
+		"stylus": "^0.54.5"
+	},
+	"devDependencies": {
+		"dotenv": "^4.0.0"
+	}
+}
